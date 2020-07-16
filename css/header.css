@@ -1,0 +1,59 @@
+.header {
+  height: 163px;
+}
+.he {
+  height: 33px;
+  background-color: #F2F2F2;
+}
+.header .left, .header .right{
+  color: #999;
+  font-size: 14px;
+  margin-left: 105px;
+}
+
+.header .left li {
+  float: left;
+  padding: 0 0 0 20px;
+  line-height: 33px;
+}
+.header .left li:nth-child(1) {
+  padding-left: 0;
+}
+.header .ri {
+  float: right;
+  margin-right: 105px;
+}
+.header .right li {
+  float: left;
+  padding: 0 0 0 20px;
+  line-height: 33px;
+}
+.header .small {
+  width: 240px;
+  height: 130px;
+  float: left;
+}
+.header .search {
+  width: 630px;
+  height: 36px;
+  float: left;
+  border:2px solid #FF0036;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.header .search .search-right {
+  width: 139px;
+  height: 38px;
+  background-color: #FF0036;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: center;
+  color: white;
+  float: right;
+}
+.header .search input {
+  float: left;
+  width: 380px;
+  height: 26px;
+  padding: 5px 3px 5px 5px;
+}
